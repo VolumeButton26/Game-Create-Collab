@@ -17,8 +17,9 @@ Guidelines and stuff to follow.
 - https://docs.google.com/document/d/1KtxIQH31G9xLNMic2K8W8P0vE_yX-5OjCNL5xZIVj6k/edit
 ### 🎨 Concept Art.
 - https://drive.google.com/drive/folders/19fZ_nksVCCF8pYyFlCSdgPE_6IRFBhEE?usp=sharing
-### Discord Link.
+### 💬 Discord Link.
+Where we talk about concepts and everything about the game.
 - https://discord.com/channels/903171842364293171/903171842364293174
 
-## 📅 TODO
-#Todo too haha.
+## 📅 Current TODO
+- Finish Basic Inventory
