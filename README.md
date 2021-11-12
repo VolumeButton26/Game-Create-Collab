@@ -1,7 +1,7 @@
 <div>
   <img width="220"  align="left" src="https://i.ibb.co/sv97PD3/output-onlinegiftools.gif">
   <br>
-  <h1>Game Collab</h1>
+  <h1>🎮 Game Collab</h1>
   <p>A 2D RPG game in the making.</p>
 </div>
 
