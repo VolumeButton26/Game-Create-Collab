@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 namespace Inventory {
 
     // there will be many types of shells right?
-    public interface IShell {
+    public interface IShell : IItem {
     }
 }
