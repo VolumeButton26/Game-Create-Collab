@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Inventory {
-    public enum ItemType { 
-        Gems, SeashellNecklace
+
+    // there will be many types of shells right?
+    public interface IShell {
     }
 }
