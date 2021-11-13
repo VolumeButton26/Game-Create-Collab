@@ -14,6 +14,7 @@ namespace Inventory {
     public class Gem : ItemBase {
         public void Awake() {
             ItemType = ItemType.Gem;
+            // can we stack this
         }
     }
 }
