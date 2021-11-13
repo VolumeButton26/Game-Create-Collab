@@ -42,8 +42,9 @@ namespace Inventory {
         public long AppendAmount(long amount) {
 
             if (Amount + amount > Item.MaxStacks) {  // make sure to not overflow the long
+                long addedItems = Item.MaxStacks - Amount;
                 Amount = Item.MaxStacks; // set to max value if too many
-                return Item.MaxStacks - Amount;
+                return amount - addedItems;
             }
 
             Amount += amount;
