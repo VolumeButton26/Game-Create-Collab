@@ -53,10 +53,12 @@
     <UnityVersion>2020.3.22f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Inventory\Item Base.cs" />
-    <Compile Include="Assets\Scripts\Inventory\Enum - Item Type.cs" />
-    <Compile Include="Assets\Scripts\Item Types\Placeholder Object.cs" />
-    <Compile Include="Assets\Scripts\Item Types\Gem.cs" />
+    <Compile Include="Assets\Scripts\Items\Item Base.cs" />
+    <Compile Include="Assets\Scripts\Items\Enum - Item Type.cs" />
+    <Compile Include="Assets\Scripts\Items\Items\Placeholder Object.cs" />
+    <Compile Include="Assets\Scripts\Items\Items\Gem.cs" />
+    <Compile Include="Assets\Scripts\Inventory\Scripts\Inventory Object.cs" />
+    <Compile Include="Assets\Scripts\Inventory\Scripts\Inventory Slot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

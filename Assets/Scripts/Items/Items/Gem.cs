@@ -7,6 +7,9 @@ using UnityEngine;
 
 namespace Inventory {
 
+    /// <summary>
+    /// Base class of gem item type.
+    /// </summary>
     [CreateAssetMenu(fileName = "New Gem Item", menuName = "Inventory System/Items/Gem")]
     public class Gem : ItemBase {
         public void Awake() {
