@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp:Inventory:PlaceholderObject
   Prefab: {fileID: 0}
   ItemType: -2147483648
-  ItemName: 
-  SmallDescription: 
+  ItemName: Test Item
+  SmallDescription: For debugging purposes!
+  LargeDescription: For debugging purposes!

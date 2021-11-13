@@ -13,9 +13,9 @@ namespace Inventory {
         Placeholder = int.MinValue,
 
         /// <summary>
-        /// Shell object.
+        /// Gem object.
         /// </summary>
-        Shell = 0
+        Gem = 0
 
     }
 
