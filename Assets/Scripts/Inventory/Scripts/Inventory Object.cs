@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Inventory {
 
     public class InventoryObject : ScriptableObject {
-        public List<ItemBase> Items = new();
+        public List<ItemBase> Items = new List<ItemBase>();
     }
 
 }
