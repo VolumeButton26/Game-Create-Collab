@@ -56,7 +56,7 @@
     <Compile Include="Assets\Scripts\Inventory\Item Base.cs" />
     <Compile Include="Assets\Scripts\Inventory\Enum - Item Type.cs" />
     <Compile Include="Assets\Scripts\Item Types\Placeholder Object.cs" />
-    <Compile Include="Assets\Scripts\Item Types\Gems.cs" />
+    <Compile Include="Assets\Scripts\Item Types\Gem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
