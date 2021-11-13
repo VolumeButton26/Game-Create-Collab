@@ -18,8 +18,8 @@ namespace Inventory {
         public string ItemName;
 
         [TextArea(1, 5)]
-        public string SmallDescription;
+        public string Summary;
         [TextArea(2, 10)]
-        public string LargeDescription;
+        public string Description;
     }
 }

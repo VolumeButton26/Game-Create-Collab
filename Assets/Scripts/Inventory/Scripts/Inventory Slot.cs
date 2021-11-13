@@ -23,7 +23,7 @@ namespace Inventory {
         /// <summary>
         /// Appends the ammount ONCE.
         /// </summary>
-        /// <returns>True if successful, then the amount of items that overflows the stack.</returns>
+        /// <returns>The the amount of items that overflows the stack, should be 1 if there is.</returns>
         public byte AppendAmount() {
             if (Amount < Item.MaxStacks) {
                 Amount++;
@@ -31,6 +31,10 @@ namespace Inventory {
             } else return 1;
         }
 
+        /// <summary>
+        /// Appends the specified amount of objects to the slot.
+        /// </summary>
+        /// <returns>The amount of items that can't be stacked, should be added to next inventory.</returns>
         public byte AppendAmount(byte amount) {
 
             if (Amount + amount > Item.MaxStacks) {  // make sure to not overflow the byte
