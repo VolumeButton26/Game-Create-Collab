@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 namespace Inventory {
     [System.Serializable]
     public class InventorySlot {
+        /// <summary>
+        /// We can only have one type of item per inventory.
+        /// </summary>
         public ItemBase Item;
 
         public long Amount;
@@ -22,7 +25,7 @@ namespace Inventory {
         }
 
         /// <summary>
-        /// Appends the ammount ONCE.
+        /// Appends the amount ONCE.
         /// </summary>
         /// <returns>The the amount of items that overflows the stack, should be 1 if there is.</returns>
         public long AppendAmount() {
@@ -35,12 +38,12 @@ namespace Inventory {
         /// <summary>
         /// Appends the specified amount of objects to the slot.
         /// </summary>
-        /// <returns>The amount of items that can't be stacked, should be added to next inventory.</returns>
+        /// <returns>The amount of items that can't be stacked, should be added to next inventory. 0 if none.</returns>
         public long AppendAmount(long amount) {
 
-            if (Amount + amount > Item.MaxStacks) {  // make sure to not overflow the byte
+            if (Amount + amount > Item.MaxStacks) {  // make sure to not overflow the long
                 Amount = Item.MaxStacks; // set to max value if too many
-                return Item.MaxStacks - amount /* why microsoft why */;
+                return Item.MaxStacks - Amount;
             }
 
             Amount += amount;

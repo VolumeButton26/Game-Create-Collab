@@ -15,8 +15,9 @@ namespace Inventory {
 
         /// <summary>
         /// Number of max stacks on the item.
+        /// 1 means unstackable.
         /// </summary>
-        public long MaxStacks = 64;
+        public long MaxStacks = long.MaxValue;
 
 
         [TextArea(1, 2)]
